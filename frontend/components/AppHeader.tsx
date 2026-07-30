@@ -1,6 +1,5 @@
 'use client';
 
-import { headers } from 'next/headers';
 import { usePathname } from 'next/navigation';
 
 const CRUMBS: Record<string, string> = {
