@@ -1,13 +1,9 @@
-import { AppSidebar } from '@/components/AppSidebar';
-import { AppHeader } from '@/components/AppHeader';
+import { AppShell } from "@/components/AppShell";
 
 export default function Home() {
   return (
-    <div className='flex min-h-screen bg-paper text-ink w-full'>
-      <AppSidebar />
-      <div className='w-full'>
-        <AppHeader />
-      </div>
+    <div className=''>
+      <AppShell />
     </div>
   );
 }
